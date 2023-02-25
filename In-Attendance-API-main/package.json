@@ -1,0 +1,28 @@
+{
+  "name": "ncaa-api",
+  "version": "1.0.0",
+  "description": "API connecting to NCAA Repo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UVAMobileDev/ncaa-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UVAMobileDev/ncaa-api/issues"
+  },
+  "homepage": "https://github.com/UVAMobileDev/ncaa-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "MD5": "^1.3.0",
+    "mysql": "^2.18.1",
+    "yarn": "^1.22.19"
+  }
+}
